@@ -14,14 +14,15 @@ Prerequisites
     - Run npm install to install the required dependencies
 
 ## Usage
-    - To scrape a website, kindly insert a desired url in the `url` variable in index.js. 
+
+- To scrape a website, kindly insert a desired url in the `url` variable in index.js. 
     
     For example:
     ```
     const url = 'https://www.eurosport.co.uk'
     ```
     
-    - In a terminal window, navigate to the root directory of the cloned repository
-    - Run npm start to start the web scraper
-    - The scraped articles will be logged to the console
+- In a terminal window, navigate to the root directory of the cloned repository
+- Run npm start to start the web scraper
+- The scraped articles will be logged to the console
 
