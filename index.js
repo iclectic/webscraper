@@ -5,7 +5,7 @@ const express = require('express')
 
 const app = express()
 
-const url = 'https://www.eurosport.co.uk'
+const url = ''
 axios(url)
     .then(response => {
         const html = response.data
@@ -13,7 +13,7 @@ axios(url)
             const $ = cheerio.load(html)
             const articles = []
 
-            $('.wrapper', html).each(function() {
+            $('.', html).each(function() {
                 const title = $(this).text()
                 const url = $(this).find('a').attr('href')
                 articles.push({
